@@ -12,5 +12,5 @@ $sql = "SELECT  emp.ID_EMPRESA, emp.NOMBRE_EMPRESA, emp.ID_GRUPO,loc.NOMBRE_LOCA
         $json_array[] = $row;
     }
     print_r(json_encode($json_array));
-    // print_r( $json_array);
+    // print_r( $json_array); v2
 ?>
